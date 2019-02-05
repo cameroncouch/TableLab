@@ -17,11 +17,11 @@ $( document ).ready(function() {
     $(".savebut").on("click", function(e){
     });
     $("i").on("click", function(){
-        if (true) {
-            tablenum.removeClass("reserved");
-            tablenum.toggleClass("available");
-            console.log(tablenum);
-        }
+        // if (true) {
+        //     tablenum.removeClass("reserved");
+        //     tablenum.toggleClass("available");
+        //     console.log(tablenum);
+        // }
         $(".tablenumber").html(" ");
         $(".modul1").css("display", "none");
     });

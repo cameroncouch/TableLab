@@ -54,6 +54,10 @@ p {
     justify-content: center;
     align-items: center;
 }
+.reserved {
+    color: #CCC;
+    background-color: #ADAAAA;
+}
 .modul1 {
     display: none;
     background-color: #EEE;
