@@ -1,0 +1,112 @@
+body {
+    background-color: #E1D7D4;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+.headertext {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.placeholder {
+    font-size: 10px;
+}
+.formheader, .mainheader {
+    font-family: "Rubik";
+    color: #E34E45;
+    font-size: 24px;
+    font-weight: 700px;
+    margin: 0;
+}
+p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: Normal;
+    font-size: 12px;
+    margin: 0;
+}
+.circlewrapper {
+    background-color: #EEE;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+.circle {
+    background-color: #CCC;
+    color: #ADAAAA;
+    width: 33%;
+    height: 33%;
+    border-radius: 50%;
+    margin: 1px 0px 1px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modul1 {
+    display: none;
+    background-color: #EEE;
+    flex-direction: column;
+    flex-flow: wrap;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.3);
+    font-size: 12px;
+    border-radius: 2px;
+}
+.modulheader {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+i {
+    color: #CCC;
+    font-size: 16px;
+}
+.modul1 h6 {
+    font-size: 21px;
+}
+input {
+    display: flex;
+    margin: 0px 0px 20px 0px;
+    flex-direction: column;
+    font-family: "Rubik", sans-serif;
+    font-size: 10px;
+
+}
+form {
+    width: 100%;
+}
+.textform {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ADAAAA;
+    background-color: #EEE;
+}
+.savebut {
+    background-color: #008000;
+    border: none;
+    color: #EEE;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 5px 0px 5px 0px;
+    text-align: -webkit-center;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.3);
+}
+@media only screen and (min-width: 760px) {
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Table Finder</title>
+</head>
+<body>
+    <!-- WHITE CONTAINER -->
+    <main>
+        <!-- HEADER AND SUBHEADER TEXT -->
+        <section class="headertext">
+            <p class="mainheader">Table Finder</p>
+            <p class="subhead">Pick your table now</p>
+        </section>
+        <!-- TABLE CIRCLES -->
+        <section class="circlewrapper"> 
+            <div class="circle available" id="1"><p>1</p></div>
+            <div class="circle available" id="2"><p>2</p></div>
+            <div class="circle available" id="3"><p>3</p></div>
+            <div class="circle available" id="4"><p>4</p></div>
+            <div class="circle available" id="5"><p>5</p></div>
+            <div class="circle available" id="6"><p>6</p></div>
+            <div class="circle available" id="7"><p>7</p></div>
+            <div class="circle available" id="8"><p>8</p></div>
+            <div class="circle available" id="9"><p>9</p></div>
+        </section>
+        <section class="modul1">
+            <section class="modulheader">
+                <p class="formheader">New Reservation</p>
+                <i class="material-icons">close</i>
+            </section>
+            
+            <p>Table number: <p class="tablenumber"></p></p>
+            <form>
+                <input class="textform" type="text" placeholder="Name">
+                <input class="textform" type="text" placeholder="Phone number">
+                <input class="textform" type="text" placeholder="Size of party">
+                <input class ="savebut" type="submit" value="SAVE">
+            </form>
+        </section>
+    </main>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
