@@ -15,6 +15,7 @@ $( document ).ready(function() {
         return tablenum;
         });
     $(".savebut").on("click", function(e){
+        preventDefault();
     });
     $("i").on("click", function(){
         // if (true) {

@@ -57,6 +57,7 @@ p {
 .reserved {
     color: #CCC;
     background-color: #ADAAAA;
+    cursor: not-allowed;
 }
 .modul1 {
     display: none;
