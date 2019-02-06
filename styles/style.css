@@ -37,6 +37,7 @@ main {
     border: 2px solid black;
     border-radius: 5px;
     position: absolute;
+    bottom: 60px;
 }
 .resName p {
     font-size: 9px;
@@ -47,6 +48,7 @@ p {
     font-weight: Normal;
     font-size: 12px;
     margin: 0;
+    pointer-events: none;
 }
 .circlewrapper {
     background-color: #EEE;
@@ -67,6 +69,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .reserved {
     color: #CCC;
@@ -113,6 +116,7 @@ form {
     width: 100%;
 }
 .textform {
+    font-family: "Roboto Mono", monospace;
     height: 14px;
     border-top: none;
     border-left: none;
