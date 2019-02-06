@@ -21,6 +21,17 @@ $( document ).ready(function() {
         $(".modul1").hide();
         $(".textform").val("");
     });
+    /*YOU CAN PRESS ENTER TO SUBMIT THE FORM - TRUST ME*/
+    $(document).on("keydown", function() {
+        if (window.event.keyCode=='13') {
+        $(tablenum).removeClass("available").addClass("reserved").unbind();
+        $(tablenum).attr("name", $(".textform").eq(0).val())
+        .attr("phone", $(".textform").eq(1).val())
+        .attr("table", $(".textform").eq(2).val());
+        $(".modul1").hide();
+        $(".textform").val("");
+        }
+    });
     /*THIS IS FUNCTIONALITY FOR THE "X" ICON. IT CLEARS THE FORMS AND HIDES THE FORM*/
     $(document).on("click", "i", function() {
         $(".tablenumber").html("");
