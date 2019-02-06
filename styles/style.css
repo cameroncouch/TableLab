@@ -28,6 +28,20 @@ main {
     font-weight: 700px;
     margin: 0;
 }
+.resName {
+    font-size: 5px;
+    background-color: #ADAAAA;
+    color: #000;
+    height: max-content;
+    width: max-content;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+}
+.resName p {
+    font-size: 9px;
+    color: #000;
+}
 p {
     font-family: "Roboto Mono", monospace;
     font-weight: Normal;
@@ -58,6 +72,9 @@ p {
     color: #CCC;
     background-color: #ADAAAA;
     cursor: not-allowed;
+}
+.reserved:active {
+    pointer-events: none;
 }
 .modul1 {
     display: none;
@@ -95,6 +112,7 @@ form {
     width: 100%;
 }
 .textform {
+    height: 14px;
     border-top: none;
     border-left: none;
     border-right: none;
