@@ -73,7 +73,8 @@ p {
     background-color: #ADAAAA;
     cursor: not-allowed;
 }
-.reserved:active {
+/* 77 MAKES IT SO YOU CANNOT CLICK ON A CIRCLE ONCE ITS BEEN RESERVED */
+.reserved:active { 
     pointer-events: none;
 }
 .modul1 {
